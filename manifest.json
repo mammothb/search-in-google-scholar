@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Search in Google Scholar",
+  "description": "Search selected text in Google Scholar",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/mammothb/search-in-google-scholar",
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite"
+  ]
+}
