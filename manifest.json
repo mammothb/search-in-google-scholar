@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Search in Google Scholar",
-  "description": "Search selected text in Google Scholar",
+  "name": "Search with Google Scholar",
+  "description": "Search selected text with Google Scholar",
   "version": "1.0.0",
-  "homepage_url": "https://github.com/mammothb/search-in-google-scholar",
+  "homepage_url": "https://github.com/mammothb/search-with-google-scholar",
   "icons": {
     "48": "icons/48.png"
   },

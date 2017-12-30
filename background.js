@@ -1,10 +1,10 @@
 browser.contextMenus.create({
-  id: "search-in-google-scholar",
-  title: "Search in Google Scholar",
+  id: "search-with-google-scholar",
+  title: "Search with Google Scholar",
   contexts: ["selection"],
 });
 browser.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === "search-in-google-scholar") {
+  if (info.menuItemId === "search-with-google-scholar") {
     // Encodes the selected text as a URI component
     const queryText = encodeFormDataURIComponent(info.selectionText);
     // Construct the query URL
